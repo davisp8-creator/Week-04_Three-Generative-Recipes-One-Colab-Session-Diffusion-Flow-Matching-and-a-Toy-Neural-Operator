@@ -1,0 +1,34 @@
+{
+ "tag": "t4gpu",
+ "quick": false,
+ "total_runtime_s": 278.1,
+ "hardware": {
+  "platform": "colab",
+  "system": "Linux",
+  "python": "3.13.15",
+  "torch": "2.11.0+cu130",
+  "torch_cuda_build": "13.0",
+  "device": "cuda",
+  "gpu_name": "Tesla T4",
+  "vram_gb": 14.6,
+  "compute_capability": "7.5",
+  "tag": "t4gpu",
+  "cpu": "x86_64",
+  "cpu_count": 2,
+  "driver": "580.82.07",
+  "numpy": "2.1.3",
+  "pandas": "2.2.3",
+  "matplotlib": "3.10.0"
+ },
+ "budgets": {
+  "gen_steps": 20000,
+  "fno_train_cases": 1000,
+  "fno_test_cases": 200
+ },
+ "timings_s": {
+  "fm_train": 60.939749828000004,
+  "ddpm_train": 62.68284188500013,
+  "fno_train": 33.026034826999876,
+  "burgers_datagen": 4.086283264000031
+ }
+}
