@@ -1,0 +1,10 @@
+# Versions captured from the local dev environment (Python 3.14.7) via `python env_setup.py --check`.
+# The installers do NOT use this file: env_setup.py detects the imports from the assignment script and
+# installs whatever is missing. It's here as a record of a known-good set.
+#
+# Do not `pip install -r requirements.txt` on Colab: it would replace Colab's CUDA torch build
+# (e.g. "2.x+cu12x") with this +cpu one, and the T4 would become invisible to torch. See COLAB.md.
+numpy==2.5.3
+pandas==3.0.5
+matplotlib==3.11.2
+torch==2.14.0

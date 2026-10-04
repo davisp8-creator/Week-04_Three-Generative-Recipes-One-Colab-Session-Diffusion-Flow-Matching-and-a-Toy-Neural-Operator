@@ -1,0 +1,34 @@
+{
+ "tag": "cpu",
+ "quick": false,
+ "total_runtime_s": 662.4,
+ "hardware": {
+  "platform": "windows",
+  "system": "Windows",
+  "python": "3.14.7",
+  "torch": "2.14.0+cpu",
+  "torch_cuda_build": null,
+  "device": "cpu",
+  "gpu_name": null,
+  "vram_gb": null,
+  "compute_capability": null,
+  "tag": "cpu",
+  "cpu": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+  "cpu_count": 16,
+  "driver": null,
+  "numpy": "2.5.3",
+  "pandas": "3.0.5",
+  "matplotlib": "3.11.2"
+ },
+ "budgets": {
+  "gen_steps": 20000,
+  "fno_train_cases": 1000,
+  "fno_test_cases": 200
+ },
+ "timings_s": {
+  "fm_train": 156.8934829000009,
+  "ddpm_train": 155.7516140000007,
+  "fno_train": 115.09808969999904,
+  "burgers_datagen": 6.69581350000044
+ }
+}
